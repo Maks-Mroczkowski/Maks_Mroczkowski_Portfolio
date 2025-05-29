@@ -21,9 +21,9 @@ export const Contact = () => {
        }).catch(()=> alert("Oops! Something went wrong. Please try again."));
 
     }
-    return <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+    return <section id="contact" className=" min-h-screen flex items-center justify-center py-20 ">
         <RevealOnScroll>
-            <div className="px-4 w-150">
+            <div className="px-4 w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl ">
                 <h2 className="text-3xl font-bold mb-8 text-white text-center">Contact Me</h2>
                 <form className="space-y-6" onSubmit={HandleSubmit}>
                     <div className="relative">
