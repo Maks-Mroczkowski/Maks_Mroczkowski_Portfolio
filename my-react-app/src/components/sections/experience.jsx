@@ -13,7 +13,7 @@ export const Experience = () => {
             <div className="grid grid-cols-1 md:grid-cols2 gap-6 mt-8">
                 <div className=" p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,246,0,0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-4 flex justify-between ">
-                        Incoming Data Science Intern 
+                        Data Science Intern 
                         <span className="ml-4 text-base font-normal text-gray-300 self-center">May - August 2025</span>
 
                     
@@ -23,16 +23,21 @@ export const Experience = () => {
                             <strong>Purdue University </strong> 
                         </li>
                         <li>
-                            Selected as 1 out of 350+ applicants as part of the Purdue SURF programme. I will be working with 150+ patients by analysing their pancreatic tumour scans.
+                            Selected as 1 out of 350+ applicants as part of the Purdue SURF engineering programme.
                             
                         </li>
 
                         <li>
-                            I will build data pipelines to extract and process data from 150+ segmented scans, then aid in integrating them into machine learning algorithms.
+                            I segemented 180+ T1 MRIs using a nnU-net deep learning segmentation model which I implemented.  
+                             
                         </li>
 
                         <li>
-                            Our team is hoping these machine learning algorithms can give us insights into our data and our patients that can be used to make breakthroughs in treating pancreatic cancer - one of the deadliest cancers known.
+                            I built data pipelines to convert the MRI segmentations into 100k meshes using a newly developed algorithm which smoothes meshes with minimal shrinkage.  
+                        </li>
+
+                        <li>
+                            Our team is hoping the morphological data I extracted from these pancreatic meshes can give us insights into our patients that can be used to make breakthroughs in treating pancreatic cancer - top 3 deadliest cancers known.
                         </li>
                     </ul>
 
