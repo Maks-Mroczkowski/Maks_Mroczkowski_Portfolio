@@ -13,7 +13,7 @@ export const Home =() => {
             <div className="flex justify-center space-x-4">
 
             <a
-            href="./public/CV.pdf" target="_blank" rel="noopener noreferrer" className= " flex items-center bg-gray-800 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" > 
+            href="CV.pdf" target="_blank" rel="noopener noreferrer" className= " flex items-center bg-gray-800 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" > 
             View My CV
             </a>
 
