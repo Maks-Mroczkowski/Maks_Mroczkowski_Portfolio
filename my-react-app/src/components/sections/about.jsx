@@ -1,10 +1,10 @@
 import {RevealOnScroll} from "../RevealOnScroll";
 export const About = () => {
 
-    const ProgrammingLanguages = ["Python", "JavaScript", "C++", "Matlab"]
-    const FrameWorksLibraries = ["React", "TensorFlow", "NumPy", "Scikit-Learn", "Keras", 'Pandas', 'TailWindCSS', "HTML", "MatPlotLib", 'OpenCV' , 'SciPy']
+    const ProgrammingLanguages = ["Python", "JavaScript", "C++", "Matlab", "SQL"]
+    const FrameWorksLibraries = ["React", "TensorFlow", "NumPy", "PyTorch", "Scikit-Learn", "Keras", 'Pandas', 'TailWindCSS', "HTML", "MatPlotLib", 'OpenCV' , 'SciPy']
     const EngineeringSkills= ['Fusion360', 'SolidWorks', 'Fritzing', 'Bambu 3D Printing', 'Laser Cutting', 'Rapid Prototyping', ]
-    const Technologies = ['Git', 'Figma', 'Github']
+    const Technologies = ['Git', 'Figma', 'Github', 'Jupyter Notebook', 'Docker']
 
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">

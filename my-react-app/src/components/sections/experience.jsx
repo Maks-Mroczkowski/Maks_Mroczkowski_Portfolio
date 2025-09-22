@@ -23,21 +23,21 @@ export const Experience = () => {
                             <strong>Purdue University </strong> 
                         </li>
                         <li>
-                            Selected as 1 out of 350+ applicants as part of the Purdue SURF engineering programme.
+                            Selected as 1 out of 300+ applicants as part of the Purdue SURF engineering programme.
                             
                         </li>
 
                         <li>
-                            I segemented 180+ T1 MRIs using a nnU-net deep learning segmentation model which I implemented.  
+                             Improved on an in-house nnU-Net deep learning model in PyTorch, achieving a 12% increase in segmentation accuracy.
                              
                         </li>
 
                         <li>
-                            I built data pipelines to convert the MRI segmentations into 100k meshes using a newly developed algorithm which smoothes meshes with minimal shrinkage.  
+                             Built data pipelines in jupyter with Docker to segment 180 pancreatic MRI images stored in a SQL patient database.
                         </li>
 
                         <li>
-                            Our team is hoping the morphological data I extracted from these pancreatic meshes can give us insights into our patients that can be used to make breakthroughs in treating pancreatic cancer - top 3 deadliest cancers known.
+                             Optimised nnU-Net segmentation with GPU acceleration 'CUDA + TensorFlow', boosting segmentation speed by 1.5x.
                         </li>
                     </ul>
 
