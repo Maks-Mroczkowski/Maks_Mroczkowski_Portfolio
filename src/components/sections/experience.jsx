@@ -28,16 +28,18 @@ export const Experience = () => {
                         </li>
 
                         <li>
-                             Improved on an in-house nnU-Net deep learning model in PyTorch, achieving a 12% increase in segmentation accuracy.
+                             Improved an in-house nnU-Net PyTorch deep learning model, achieving a 12% boost in segmentation accuracy.
+.
                              
                         </li>
 
                         <li>
-                             Built data pipelines in jupyter with Docker to segment 180 pancreatic MRI images stored in a SQL patient database.
+                             Built Dockerized Jupyter pipelines linking PostgreSQL metadata with local MRI files to segment 180 pancreatic scans.
                         </li>
 
                         <li>
-                             Optimised nnU-Net segmentation with GPU acceleration 'CUDA + TensorFlow', boosting segmentation speed by 1.5x.
+                             Accelerated GPU inference with CUDA, reducing segmentation time by 1.5x.
+.
                         </li>
                     </ul>
 
