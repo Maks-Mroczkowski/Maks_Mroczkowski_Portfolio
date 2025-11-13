@@ -1,10 +1,9 @@
 import {RevealOnScroll} from "../RevealOnScroll";
 export const About = () => {
 
-    const ProgrammingLanguages = ["Python", "JavaScript", "C++", "Matlab", "SQL"]
-    const FrameWorksLibraries = ["React", "TensorFlow", "NumPy", "PyTorch", "Scikit-Learn", "Keras", 'Pandas', 'TailWindCSS', "HTML", "MatPlotLib", 'OpenCV' , 'SciPy']
-    const EngineeringSkills= ['Fusion360', 'SolidWorks', 'Fritzing', 'Bambu 3D Printing', 'Laser Cutting', 'Rapid Prototyping', ]
-    const Technologies = ['Git', 'Figma', 'Github', 'Jupyter Notebook', 'Docker']
+    const ProgrammingLanguages = ["Python", "JavaScript", "TypeScript", "C++", "SQL", "JAX"]
+    const FrameWorksLibraries = ["React", "FastAPI", "Flask", "PyTorch", "TensorFlow", "XGBoost", "LangChain", "NumPy", "Pandas", "Scikit-Learn", "Keras", "TailwindCSS", "HTML", "Matplotlib", "OpenCV"]
+    const Technologies = ['Git', 'GitHub', 'Docker', 'Jupyter Notebook', 'MLflow', 'Kubernetes', 'AWS Lambda', 'AWS Kinesis', 'AWS S3', 'CI/CD', 'PostgreSQL', 'ChromaDB', 'Redis', 'Celery', 'Evidently AI', 'CloudWatch', 'MinIO']
 
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -48,25 +47,6 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-
-
-
-
-                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4 ">Engineering </h3>
-                        <div className="flex flex-wrap gap-2 ">
-                            {EngineeringSkills.map((tech, key)=>(
-                                <span 
-                                key={key}
-                                className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all ">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-
-
 
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4 ">Technologies </h3>
