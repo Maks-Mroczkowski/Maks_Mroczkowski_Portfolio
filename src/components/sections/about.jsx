@@ -16,7 +16,7 @@ export const About = () => {
 
             <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,246,0,0.1)] "  >
                 <p className="text-gray-300 mb-6">
-                    I am passionate about building and maintaining scalable software and hardware that improve peoples lives. I especially enjoy working on projects that aim to improve medicine and surgery. I have experience in data science, robotics, UI/UX design, frontend and backend development and machine learning algorithms. This summer I interned as a data scientist at Purdue University where I worked on implementing nnU-net based deep learning architecture and built data pipelines to extract morphological data from MRIs.    
+                    I am passionate about building and maintaining scalable software that improve peoples lives. I especially enjoy working on projects that aim to improve challenges in healthcare, big data, and finance. I have experience in data science, Fullstack and ML engineering. This summer I interned as a data scientist at Purdue University where I worked on optimising nnU-net based deep learning architecture and built data pipelines to extract morphological data from MRIs.    
 
                 </p>
 
